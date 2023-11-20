@@ -10,8 +10,7 @@ class NumbersHelper
         for ($i = 0; $i < 50; $i++) {
             $numberStr = '';
             while (strlen($numberStr) !== 50) {
-                //$numberStr .= mt_rand(10000, 99999);
-                $numberStr .= mt_rand(22222, 22222);
+                $numberStr .= mt_rand(10000, 99999);
             }
             $numbers[] = $numberStr;
         }
